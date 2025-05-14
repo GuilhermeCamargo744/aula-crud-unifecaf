@@ -1,14 +1,9 @@
-import { Text } from "react-native"
-
-
-
+import { Text } from "react-native";
 
 export const MenTab = () => {
-    return (
-        <>
-            <Text>
-                MENINOS
-            </Text>
-        </>
-    )
-}
+  return (
+    <>
+      <Text>MENINOS</Text>
+    </>
+  );
+};
