@@ -44,11 +44,12 @@ export const Login = () => {
       })
       .then((resp) => {
         console.log(" resp.data", resp.data);
-
         router.replace("/(tabs)");
         return resp.data;
       })
-
+      .catch((err) => {
+        alert("Erro no login");
+      })
       .finally(() => {
         setLoading(false);
       });
