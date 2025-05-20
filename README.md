@@ -48,3 +48,22 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+End-points:
+
+get:
+
+- Masculino:
+  -> "/products/category/mens-shirts"
+  -> "/products/category/mens-shoes"
+  -> "/products/category/mens-watches"
+
+- Feminino:
+  -> "/products/category/womens-bags"
+  -> "/products/category/womens-dresses"
+  -> "/products/category/womens-jewellery"
+  -> "/products/category/womens-shoes"
+  -> "/products/category/womens-watches"
+
+Post:
+Login: "/auth/login"
