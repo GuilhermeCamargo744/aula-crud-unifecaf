@@ -13,8 +13,8 @@ import {
 import { styles } from "./styles";
 
 export const Login = () => {
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
+  const [name, setName] = useState("emilys");
+  const [password, setPassword] = useState("emilyspass");
   const [loading, setLoading] = useState(false);
 
   const submit = () => {
